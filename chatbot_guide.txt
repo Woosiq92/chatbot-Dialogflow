@@ -1,0 +1,36 @@
+자연어 처리 (NLP) 활용 
+
+https://dialogflow.cloud.google.com/#/agent/test1-jkxn/intents
+
+1. agent 생성 
+
+-  intent : 의도 
+1) Default Welcome Intent ( 샘플 ) 
+
+Training phrases ( 구글 인공지능 서비스로 학습을 통해 단어 판단) 
+
+Responses ( 훈련 문구에 대한 대답 랜덤으로 출력 ) 
+
+Diagnostic info - json 확인 
+
+2. 강의 예약 기능 추가 ( Course Reservation 인텐트 생성 ) 
+1) 강의를 예약할때 사용하는 단어를 포함하여 문장 등록 
+2) 대답 문장 등록 
+3) follow up intent - 다음 문장 , 대답 문장 등록
+4) integrations - web demo 로 테스트 - 주어진 링크 이동 
+ex) 강의 신청할래요 , 아직 강의 이름은 못정했어요 입력 
+
+3. 엔티티(객체 정의 -> 내부처리: 단어분류를 위해)로 단어 분류하여 응답하기 (사용자가 강의를 알고 있을떄 ) 
+1) 강의 종류 문장 등록 
+2) 강의 객체 드래그 -> create new -> 객체 이름 입력 -> 객체 목록 추가 -> 단어와 생성한 객체 연동 
+3) 대답 : 정말 $CourseName을(를) 신청하시겠습니까? 
+4) 연계형 인텐트 : 강의 신청이 완료되었습니다. (강의 이름: #CourseReservation-custom-2-followup.CourseName)
+
+4. 엑셀 파일등 (csv, xlsx) 대용량 데이터를 한 번에 넣기 
+- Json 이라는 표준 형태로 업로드 진행
+1) intent 2개 생성 
+2) agent 설정 -> Export and Import -> Export As ZIP -> Json 파일 확인 
+
+
+## cmd 실행 ( 경로에 cmd 입력 ) 
+## jupyter notebook 실행 ( 환경 변수 설정 anaconda3 -> scripts, library.bin 추가 ) 

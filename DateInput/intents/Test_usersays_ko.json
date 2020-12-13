@@ -1,0 +1,30 @@
+[
+  {
+    "id": "719368d5-e722-4b3f-9e84-091ae738227c",
+    "data": [
+      {
+        "text": "hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "ce6a4d19-056b-4821-9926-fdbd05dffa2d",
+    "data": [
+      {
+        "text": "Hi",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]
